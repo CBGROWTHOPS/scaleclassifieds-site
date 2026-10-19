@@ -1,0 +1,210 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/1wqatui14bvun.js","/_next/static/chunks/1ddqwg5srlyif.js"],""]
+3:I[5500,["/_next/static/chunks/1wqatui14bvun.js","/_next/static/chunks/1ddqwg5srlyif.js"],"Image"]
+4:T18c7,<p>Craigslist&#39;s own <a href="https://www.craigslist.org/about/help/posting_fees" target="_blank" rel="noopener">posting fees page</a> is short: a list of the sections that cost money and a range for each. It&#39;s accurate and it&#39;s nearly useless for planning, because two of the ranges — gigs and jobs — span a factor of seven or more depending on the city, and the exact number only appears at the very end of the posting flow.</p>
+<p>Here is the full picture as of this writing.</p>
+<h2>The official schedule</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Section</th>
+<th>What Craigslist charges</th>
+<th>Where</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Jobs</td>
+<td>$10–75 per post, varies by area</td>
+<td>US, parts of Canada</td>
+</tr>
+<tr>
+<td>Gigs</td>
+<td>$3–10 per post, varies by area</td>
+<td>US, selected Canadian areas</td>
+</tr>
+<tr>
+<td>Services</td>
+<td>$5 per post</td>
+<td>US and Canada</td>
+</tr>
+<tr>
+<td>Cars &amp; trucks — by dealer</td>
+<td>$5 per post</td>
+<td>US</td>
+</tr>
+<tr>
+<td>Cars, trucks, RVs, motorcycles — by owner</td>
+<td>$5 per post</td>
+<td>US</td>
+</tr>
+<tr>
+<td>For sale — by dealer</td>
+<td>$5 per post</td>
+<td>US</td>
+</tr>
+<tr>
+<td>Apartment rentals</td>
+<td>$5 per post</td>
+<td>New York, Boston, Chicago areas only</td>
+</tr>
+<tr>
+<td>Commercial real estate</td>
+<td>$5 per post</td>
+<td>US</td>
+</tr>
+<tr>
+<td>Everything else</td>
+<td>Free</td>
+<td>—</td>
+</tr>
+</tbody></table></div>
+<p>&quot;Everything else&quot; covers most of for sale by owner, most of housing outside the three big rental markets, all of community, and personals-style categories that no longer exist. If you&#39;re a private party selling a bicycle, Craigslist is still free. If you&#39;re a business posting anything with a commercial angle, it almost certainly isn&#39;t.</p>
+<h2>Gigs: $3 to $10, by metro</h2>
+<p>Craigslist tiers gigs fees by market size. From our own posting history across 413 US metros, the tiers break roughly like this:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Gigs fee</th>
+<th>Typical metros</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>$10</td>
+<td>New York, SF Bay Area, Los Angeles, Dallas, Miami</td>
+</tr>
+<tr>
+<td>$7</td>
+<td>Chicago, Phoenix, Atlanta, Seattle, Washington DC, Houston, Boston, Austin, San Diego, Denver, Tampa, Portland</td>
+</tr>
+<tr>
+<td>$5</td>
+<td>Minneapolis, Philadelphia, Orlando, Detroit, San Antonio, Pittsburgh, Orange County, Charlotte, Columbus, Baltimore, Nashville, Kansas City, and about 50 similar metros</td>
+</tr>
+<tr>
+<td>$3</td>
+<td>Everywhere else — roughly 330 smaller markets, from Salt Lake City and Albuquerque down to single-county regions</td>
+</tr>
+</tbody></table></div>
+<p>The exact fee for any city is on its <a href="/cities">city page</a> and next to each city when you pick them in the <a href="/pricing">pricing calculator</a>.</p>
+<h2>Jobs: $10 to $75, by metro</h2>
+<p>Jobs is the expensive one, and the widest spread. Craigslist doesn&#39;t publish a per-city list; the figures below come from a published per-city compilation cross-checked against what posters report at checkout, and our team confirms them city by city as we post.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Jobs fee</th>
+<th>Typical metros</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>$75</td>
+<td>SF Bay Area</td>
+</tr>
+<tr>
+<td>$45</td>
+<td>New York, Los Angeles, Chicago, Boston, Dallas, Denver, Seattle, Phoenix, Minneapolis, South Florida</td>
+</tr>
+<tr>
+<td>$35</td>
+<td>Atlanta, Houston, Austin, Detroit, Charlotte, Tampa, Kansas City, Columbus, Baltimore, Inland Empire, Hawaii</td>
+</tr>
+<tr>
+<td>$25</td>
+<td>Most other metro areas: Cincinnati, Cleveland, Indianapolis, Boise, Albuquerque, Fresno, Jacksonville, Buffalo, Hartford</td>
+</tr>
+<tr>
+<td>$15–20</td>
+<td>Smaller metros and college towns</td>
+</tr>
+<tr>
+<td>$10</td>
+<td>Rural and micro markets</td>
+</tr>
+</tbody></table></div>
+<p>If you&#39;re hiring in ten cities, the same job post can cost anywhere from $100 to $450 in Craigslist fees alone. That&#39;s the number that surprises people.</p>
+<h2>Why every blog post about this is wrong</h2>
+<p>Three reasons:</p>
+<ol>
+<li><strong>Craigslist changes fees without announcing it.</strong> The gigs fee didn&#39;t exist a few years ago. Services went from free to $5. Rental fees were added to Boston and Chicago after New York. Any article older than a year is suspect, including the one you&#39;re reading — which is why we date it.</li>
+<li><strong>The per-city numbers aren&#39;t published anywhere official.</strong> Everyone&#39;s list is somebody&#39;s compilation.</li>
+<li><strong>The fee is shown at the end of the flow.</strong> Most people quoting fees have posted in two or three cities and are extrapolating.</li>
+</ol>
+<p>Our approach: the fee table that prices every Scale Classifieds order is maintained by the people posting. When a poster sees a different number at Craigslist&#39;s checkout than our table says, the table gets corrected and marked verified. It&#39;s not perfect on day one; it gets more accurate with every post.</p>
+<h2>What a post costs with Scale Classifieds</h2>
+<p>Craigslist&#39;s fee for that section and city, plus a flat <strong>$15</strong> for a person to post it, confirm it&#39;s live, and send you the link. So:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Section</th>
+<th>Craigslist</th>
+<th>Scale Classifieds service</th>
+<th>You pay</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Community / most for sale / most housing</td>
+<td>$0</td>
+<td>$15</td>
+<td><strong>$15</strong></td>
+</tr>
+<tr>
+<td>Services</td>
+<td>$5</td>
+<td>$15</td>
+<td><strong>$20</strong></td>
+</tr>
+<tr>
+<td>Vehicles, dealer listings, NYC/Boston/Chicago rentals</td>
+<td>$5</td>
+<td>$15</td>
+<td><strong>$20</strong></td>
+</tr>
+<tr>
+<td>Gigs</td>
+<td>$3–10</td>
+<td>$15</td>
+<td><strong>$18–25</strong></td>
+</tr>
+<tr>
+<td>Jobs</td>
+<td>$10–75</td>
+<td>$15</td>
+<td><strong>$25–90</strong></td>
+</tr>
+</tbody></table></div>
+<p>Bulk orders pay less on our part: $14 a post at 10+, $13 at 25+, $12 at 50+, $11 at 100+, $10 at 200+ — Craigslist&#39;s fee is never discounted. No minimums, no subscription, and the exact total for your cities shows before you pay. <a href="/pricing">Price an order</a> or <a href="https://app.scaleclassifieds.com/start">start one</a>.</p>
+b:X
+10:X
+10:C
+0:{"buildId":"W1UJ6fKNFOLWzLfmAHD5l","data":[{"rsc":["$","$1","c",{"children":[["$","article",null,{"className":"mx-auto w-full max-w-6xl px-5 py-12 sm:py-16","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Craigslist posting fees in 2026, section by section\",\"description\":\"What Craigslist actually charges to post — by section, and for gigs and jobs, by city — and why the number you see at checkout is different from the number in every blog post about it.\",\"datePublished\":\"2026-09-03\",\"image\":\"https://scaleclassifieds.com/img/blog/fees.jpg\",\"author\":{\"@type\":\"Organization\",\"name\":\"Scale Classifieds\"},\"mainEntityOfPage\":\"https://scaleclassifieds.com/blog/craigslist-posting-fees-2026\"}"}}],["$","div",null,{"className":"mx-auto max-w-3xl","children":[["$","$L2",null,{"href":"/blog","className":"text-[13px] text-ink-soft hover:text-ink","children":"← Blog"}],["$","p",null,{"className":"mt-4 text-[12px] font-semibold uppercase tracking-[0.08em] text-ink-faint","children":["Guide · Pricing"," · ","September 3, 2026"," · ",4," min read"]}],["$","h1",null,{"className":"mt-3 text-3xl sm:text-5xl font-bold tracking-tight leading-[1.08] text-balance","children":"Craigslist posting fees in 2026, section by section"}],["$","p",null,{"className":"mt-4 text-lg text-ink-soft leading-relaxed","children":"What Craigslist actually charges to post — by section, and for gigs and jobs, by city — and why the number you see at checkout is different from the number in every blog post about it."}]]}],["$","div",null,{"className":"mx-auto mt-8 max-w-5xl overflow-hidden rounded-2xl border border-rule","children":["$","$L3",null,{"src":"/img/blog/fees.jpg","alt":"Stacks of silver coins of different heights on white, arranged like a bar chart","width":1792,"height":1008,"priority":true,"className":"aspect-[16/9] w-full object-cover"}]}],["$","div",null,{"className":"prose mx-auto mt-10 max-w-3xl","dangerouslySetInnerHTML":{"__html":"$4"}}],"$L5","$L6","$L7"]}],["$L8"],"$L9"]}],"isPartial":"$@a","staleTime":"$b","varyParams":null},{"rsc":"$Lc","isPartial":"$@d","staleTime":"$b","varyParams":null},{"rsc":"$Le","isPartial":"$@f","staleTime":"$b","varyParams":"$10"},{"rsc":"$L11","isPartial":"$@12","staleTime":"$b","varyParams":"$10"},{"rsc":"$L13","isPartial":"$@14","staleTime":"$b","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@15","rootVaryParams":null,"needsRuntimeRequest":"$@16"}
+17:I[97367,["/_next/static/chunks/1wqatui14bvun.js"],"OutletBoundary"]
+18:"$Sreact.suspense"
+1a:I[97367,["/_next/static/chunks/1wqatui14bvun.js"],"ViewportBoundary"]
+1b:I[97367,["/_next/static/chunks/1wqatui14bvun.js"],"MetadataBoundary"]
+1c:I[27201,["/_next/static/chunks/1wqatui14bvun.js"],"IconMark"]
+1d:I[39756,["/_next/static/chunks/1wqatui14bvun.js"],"default"]
+1e:I[37457,["/_next/static/chunks/1wqatui14bvun.js"],"default"]
+1f:I[97287,["/_next/static/chunks/1wqatui14bvun.js"],"Analytics"]
+:HL["/_next/static/chunks/1khezbl8t4xd-.css","style"]
+5:["$","div",null,{"className":"mx-auto mt-10 max-w-3xl rounded-2xl border border-rule bg-paper p-5","children":[["$","p",null,{"className":"text-[12px] font-semibold uppercase tracking-[0.08em] text-ink-faint","children":"Sources"}],["$","ol",null,{"className":"mt-2 space-y-1 text-[14px] list-decimal pl-5","children":[["$","li","https://www.craigslist.org/about/help/posting_fees",{"children":["$","a",null,{"href":"https://www.craigslist.org/about/help/posting_fees","target":"_blank","rel":"noopener","className":"underline underline-offset-4 hover:text-ink-soft","children":"Craigslist — posting fees (official)"}]}],["$","li","/pricing",{"children":["$","a",null,{"href":"/pricing","target":"_blank","rel":"noopener","className":"underline underline-offset-4 hover:text-ink-soft","children":"Scale Classifieds — pricing calculator"}]}],["$","li","/cities",{"children":["$","a",null,{"href":"/cities","target":"_blank","rel":"noopener","className":"underline underline-offset-4 hover:text-ink-soft","children":"Scale Classifieds — cities and per-city fees"}]}]]}]]}]
+6:["$","div",null,{"className":"mx-auto mt-10 max-w-3xl rounded-2xl bg-ink p-6 text-white sm:p-8","children":[["$","p",null,{"className":"text-xl font-bold tracking-tight","children":"Post it once. We'll put it everywhere."}],["$","p",null,{"className":"mt-1 text-white/70","children":"Craigslist's fee + $15 per post, any of 413 cities, live within 24–48 hours."}],["$","a",null,{"href":"https://app.scaleclassifieds.com/start","className":"mt-4 inline-flex rounded-full bg-white px-6 py-3 text-[15px] font-semibold text-ink hover:bg-silver","children":"Start order"}]]}]
+7:["$","div",null,{"className":"mx-auto mt-14 max-w-5xl","children":[["$","p",null,{"className":"text-[12px] font-semibold uppercase tracking-[0.08em] text-ink-faint","children":"More from the blog"}],["$","div",null,{"className":"mt-3 grid gap-4 sm:grid-cols-3","children":[["$","$L2","how-long-craigslist-ad-stays-page-one",{"href":"/blog/how-long-craigslist-ad-stays-page-one","className":"rounded-xl border border-rule bg-white p-4 hover:border-ink","children":[["$","p",null,{"className":"text-[15px] font-semibold leading-snug","children":"How long a Craigslist ad stays on page one"}],["$","p",null,{"className":"mt-1 text-[13px] text-ink-faint","children":[5," min"]}]]}],["$","$L2","cpa-marketer-craigslist-gigs-20k",{"href":"/blog/cpa-marketer-craigslist-gigs-20k","className":"rounded-xl border border-rule bg-white p-4 hover:border-ink","children":[["$","p",null,{"className":"text-[15px] font-semibold leading-snug","children":"How one affiliate marketer cleared $20K from Craigslist gigs posts in a summer"}],["$","p",null,{"className":"mt-1 text-[13px] text-ink-faint","children":[5," min"]}]]}],["$","$L2","car-dealer-craigslist-leads-facebook-marketplace",{"href":"/blog/car-dealer-craigslist-leads-facebook-marketplace","className":"rounded-xl border border-rule bg-white p-4 hover:border-ink","children":[["$","p",null,{"className":"text-[15px] font-semibold leading-snug","children":"The used-car lot that gets 30 leads a week from Craigslist"}],["$","p",null,{"className":"mt-1 text-[13px] text-ink-faint","children":[4," min"]}]]}]]}]]}]
+8:["$","script","script-0",{"src":"/_next/static/chunks/1ddqwg5srlyif.js","async":true}]
+9:["$","$L17",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@19"}]}]
+c:["$","$1","h",{"children":[null,["$","$L1a",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L1b",null,{"children":["$","$18",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Craigslist posting fees in 2026, section by section · Scale Classifieds"}],["$","meta","1",{"name":"description","content":"What Craigslist actually charges to post — by section, and for gigs and jobs, by city — and why the number you see at checkout is different from the number in every blog post about it."}],["$","link","2",{"rel":"canonical","href":"https://scaleclassifieds.com/blog/craigslist-posting-fees-2026"}],["$","meta","3",{"property":"og:title","content":"Craigslist posting fees in 2026, section by section"}],["$","meta","4",{"property":"og:description","content":"What Craigslist actually charges to post — by section, and for gigs and jobs, by city — and why the number you see at checkout is different from the number in every blog post about it."}],["$","meta","5",{"property":"og:image","content":"https://scaleclassifieds.com/img/blog/fees.jpg"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"property":"article:published_time","content":"2026-09-03"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Craigslist posting fees in 2026, section by section"}],["$","meta","10",{"name":"twitter:description","content":"What Craigslist actually charges to post — by section, and for gigs and jobs, by city — and why the number you see at checkout is different from the number in every blog post about it."}],["$","meta","11",{"name":"twitter:image","content":"https://scaleclassifieds.com/img/blog/fees.jpg"}],["$","link","12",{"rel":"icon","href":"/icon.svg?icon.0hmxns2dylhoc.svg","sizes":"any","type":"image/svg+xml"}],["$","$L1c","13",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+e:["$","$1","c",{"children":[null,["$","$L1d",null,{"parallelRouterKey":"children","template":["$","$L1e",null,{}]}]]}]
+11:["$","$1","c",{"children":[null,["$","$L1d",null,{"parallelRouterKey":"children","template":["$","$L1e",null,{}]}]]}]
+13:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1khezbl8t4xd-.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/1wqatui14bvun.js","async":true}]],["$","html",null,{"lang":"en","className":"geist_9c6cb61b-module__8NX9hq__variable geist_mono_eb127541-module__XIXyIG__variable","children":["$","body",null,{"className":"min-h-dvh flex flex-col bg-white","children":[["$","$L1f",null,{}],["$","header",null,{"className":"sticky top-0 z-20 border-b border-rule bg-white/90 backdrop-blur","children":[["$","div",null,{"className":"mx-auto flex w-full max-w-6xl items-center justify-between px-5 py-3.5","children":[["$","$L2",null,{"href":"/","className":"text-[17px] font-bold tracking-tight","children":["Scale",["$","span",null,{"className":"text-ink-faint","children":" Classifieds"}]]}],["$","nav",null,{"className":"hidden md:flex items-center gap-6 text-[14px] text-ink-soft","children":[["$","$L2","/how-it-works",{"href":"/how-it-works","className":"hover:text-ink","children":"How it works"}],["$","$L2","/pricing",{"href":"/pricing","className":"hover:text-ink","children":"Pricing"}],["$","$L2","/cities",{"href":"/cities","className":"hover:text-ink","children":"Cities"}],["$","$L2","/blog",{"href":"/blog","className":"hover:text-ink","children":"Blog"}],["$","$L2","/faq",{"href":"/faq","className":"hover:text-ink","children":"FAQ"}]]}],["$","div",null,{"className":"flex items-center gap-4 text-[14px]","children":[["$","a",null,{"href":"https://app.scaleclassifieds.com/login","className":"text-ink-soft hover:text-ink","children":"Sign in"}],["$","a",null,{"href":"https://app.scaleclassifieds.com/start","className":"rounded-md bg-ink px-3.5 py-1.5 text-[13px] font-semibold text-white hover:bg-accent-deep","children":"Start order"}]]}]]}],["$","nav",null,{"className":"md:hidden flex gap-4 overflow-x-auto px-5 pb-2.5 text-[13px] text-ink-soft","children":[["$","$L2","/how-it-works",{"href":"/how-it-works","className":"whitespace-nowrap hover:text-ink","children":"How it works"}],["$","$L2","/pricing",{"href":"/pricing","className":"whitespace-nowrap hover:text-ink","children":"Pricing"}],["$","$L2","/cities",{"href":"/cities","className":"whitespace-nowrap hover:text-ink","children":"Cities"}],["$","$L2","/blog",{"href":"/blog","className":"whitespace-nowrap hover:text-ink","children":"Blog"}],["$","$L2","/faq",{"href":"/faq","className":"whitespace-nowrap hover:text-ink","children":"FAQ"}]]}]]}],["$","main",null,{"className":"flex-1","children":["$","$L1d",null,{"parallelRouterKey":"children","template":["$","$L1e",null,{}],"notFound":[["$","div",null,{"className":"mx-auto w-full max-w-3xl px-5 py-24 text-center","children":[["$","h1",null,{"className":"text-2xl font-bold tracking-tight","children":"Nothing here"}],["$","p",null,{"className":"mt-2 text-ink-soft","children":"That page doesn't exist."}],["$","$L2",null,{"href":"/","className":"mt-6 inline-block rounded-md bg-ink px-4 py-2 text-sm font-semibold text-white","children":"Back home"}]]}],[]]}]}],["$","footer",null,{"className":"border-t border-rule bg-paper","children":["$","div",null,{"className":"mx-auto w-full max-w-6xl px-5 py-10","children":[["$","div",null,{"className":"grid gap-8 sm:grid-cols-4","children":[["$","div",null,{"children":[["$","p",null,{"className":"text-[17px] font-bold tracking-tight","children":["Scale",["$","span",null,{"className":"text-ink-faint","children":" Classifieds"}]]}],["$","p",null,{"className":"mt-2 text-[13px] text-ink-soft leading-relaxed","children":"Done-for-you Craigslist posting in 413 US cities. Craigslist's fee + $15 per post."}]]}],[["$","div","Product",{"children":[["$","p",null,{"className":"text-[12px] font-semibold uppercase tracking-[0.08em] text-ink-faint","children":"Product"}],["$","ul",null,{"className":"mt-3 space-y-2 text-[14px]","children":[["$","li","/how-it-works",{"children":["$","$L2",null,{"href":"/how-it-works","className":"text-ink-soft hover:text-ink","children":"How it works"}]}],["$","li","/pricing",{"children":["$","$L2",null,{"href":"/pricing","className":"text-ink-soft hover:text-ink","children":"Pricing"}]}],["$","li","/cities",{"children":["$","$L2",null,{"href":"/cities","className":"text-ink-soft hover:text-ink","children":"Cities"}]}],["$","li","https://app.scaleclassifieds.com/start",{"children":"$L20"}]]}]]}],"$L21","$L22"]]}],"$L23"]}]}]]}]}]]}]
+19:null
+20:["$","a",null,{"href":"https://app.scaleclassifieds.com/start","className":"text-ink-soft hover:text-ink","children":"Start an order"}]
+21:["$","div","Company",{"children":[["$","p",null,{"className":"text-[12px] font-semibold uppercase tracking-[0.08em] text-ink-faint","children":"Company"}],["$","ul",null,{"className":"mt-3 space-y-2 text-[14px]","children":[["$","li","/about",{"children":["$","$L2",null,{"href":"/about","className":"text-ink-soft hover:text-ink","children":"About"}]}],["$","li","/blog",{"children":["$","$L2",null,{"href":"/blog","className":"text-ink-soft hover:text-ink","children":"Blog"}]}],["$","li","/course",{"children":["$","$L2",null,{"href":"/course","className":"text-ink-soft hover:text-ink","children":"The course"}]}],["$","li","/contact",{"children":["$","$L2",null,{"href":"/contact","className":"text-ink-soft hover:text-ink","children":"Contact"}]}],["$","li","/faq",{"children":["$","$L2",null,{"href":"/faq","className":"text-ink-soft hover:text-ink","children":"FAQ"}]}],["$","li","https://app.scaleclassifieds.com/login",{"children":["$","a",null,{"href":"https://app.scaleclassifieds.com/login","className":"text-ink-soft hover:text-ink","children":"Customer sign in"}]}]]}]]}]
+22:["$","div","Legal",{"children":[["$","p",null,{"className":"text-[12px] font-semibold uppercase tracking-[0.08em] text-ink-faint","children":"Legal"}],["$","ul",null,{"className":"mt-3 space-y-2 text-[14px]","children":[["$","li","/terms",{"children":["$","$L2",null,{"href":"/terms","className":"text-ink-soft hover:text-ink","children":"Terms"}]}],["$","li","/refunds",{"children":["$","$L2",null,{"href":"/refunds","className":"text-ink-soft hover:text-ink","children":"Refund policy"}]}],["$","li","/privacy",{"children":["$","$L2",null,{"href":"/privacy","className":"text-ink-soft hover:text-ink","children":"Privacy"}]}]]}]]}]
+23:["$","div",null,{"className":"mt-10 flex flex-col justify-between gap-2 border-t border-rule pt-6 text-[12px] text-ink-faint sm:flex-row","children":[["$","p",null,{"children":["© ",2026," ","SSAFF Media"," · ","407 Lincoln Rd Ste 6H PMB 1834, Miami Beach, FL 33139"]}],["$","p",null,{"children":["Scale Classifieds"," is not affiliated with, endorsed by, or sponsored by Craigslist, Inc."]}]]}]
+16:true
+b:300
+b:C
+15:0
+d:"$undefined"
+f:"$undefined"
+12:"$undefined"
+14:"$undefined"
+a:"$undefined"

@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Proposal for Partners Capital — Scale Classifieds</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap">
+<style>
+  :root {
+    --paper: #ffffff;
+    --band: #f6f6f7;
+    --post-bg: #ffffff;
+    --post-fg: #222222;
+    --post-rule: #cccccc;
+    --ink: #0a0a0a;
+    --ink-soft: #4b4f56;
+    --ink-faint: #8a8f98;
+    --rule: #d9dbe0;
+    --rule-soft: #ebedf0;
+    --green: #15803d;
+    --green-wash: #ecfdf3;
+    --amber: #b45309;
+    --amber-wash: #fff7e6;
+    --font-sans: "Geist", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --font-post: Helvetica, Arial, system-ui, sans-serif;
+    color-scheme: light;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: var(--font-sans); font-size: 15px; line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  img { max-width: 100%; }
+  .wrap { max-width: 760px; margin: 0 auto; padding-inline: 24px; padding-block: 48px 64px; }
+
+  header { display: block; }
+  .brand { font-size: 12px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-faint); margin: 0; }
+  h1 { font-size: 30px; font-weight: 700; letter-spacing: -.022em; line-height: 1.18; margin: 12px 0 0; }
+  .lede { margin: 12px 0 0; font-size: 16px; color: var(--ink-soft); max-width: 60ch; }
+  .facts { display: flex; flex-wrap: wrap; gap: 6px 28px; margin: 22px 0 0; padding-top: 18px; border-top: 1px solid var(--rule); font-size: 13px; color: var(--ink-soft); }
+  .facts b { color: var(--ink); font-weight: 600; }
+
+  h2 {
+    font-size: 19px; font-weight: 700; letter-spacing: -.012em;
+    margin: 46px 0 0; padding-bottom: 9px; border-bottom: 1px solid var(--rule);
+  }
+  h3 { font-size: 15px; font-weight: 600; margin: 24px 0 0; }
+  p { margin: 12px 0 0; }
+  p.tight { margin-top: 8px; }
+
+  .inc { margin: 14px 0 0; padding: 0; list-style: none; }
+  .inc li { padding: 11px 0; border-bottom: 1px solid var(--rule-soft); display: grid; grid-template-columns: 170px minmax(0, 1fr); gap: 4px 20px; }
+  .inc li:last-child { border-bottom: 0; }
+  .inc .k { font-weight: 600; }
+  .inc .v { color: var(--ink-soft); min-width: 0; }
+
+  table { width: 100%; border-collapse: collapse; margin: 16px 0 0; font-size: 14px; font-variant-numeric: tabular-nums; }
+  th, td { text-align: left; padding: 9px 12px 9px 0; border-bottom: 1px solid var(--rule-soft); }
+  th { font-size: 11px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--ink-faint); border-bottom-color: var(--rule); }
+  td.n, th.n { text-align: right; padding-right: 0; }
+  td.n + td, th.n + th { padding-left: 22px; }
+  td.n + td.n, th.n + th.n { padding-left: 18px; }
+  tr.total td { border-bottom: 0; border-top: 1px solid var(--rule); font-weight: 700; }
+  .scroll { overflow-x: auto; }
+
+  .callout {
+    margin: 18px 0 0; padding: 15px 17px; border-radius: 10px;
+    background: var(--green-wash); border: 1px solid var(--green);
+  }
+  .callout p { margin: 8px 0 0; }
+  .callout p:first-child { margin: 0; }
+  .callout .ct { font-weight: 700; color: var(--green); }
+
+  .notice {
+    display: flex; gap: 10px; align-items: flex-start; margin: 16px 0 0; padding: 13px 15px;
+    background: var(--amber-wash); border: 1px solid var(--amber); border-radius: 9px;
+    font-size: 13.5px; line-height: 1.5;
+  }
+  .notice strong { color: var(--amber); }
+  .notice-mark { flex: none; font-weight: 700; color: var(--amber); }
+
+  .meta { display: flex; flex-wrap: wrap; gap: 5px 16px; margin: 18px 0 0; font-size: 12.5px; color: var(--ink-soft); }
+  .meta b { color: var(--ink); font-weight: 600; }
+  .posting {
+    margin-top: 9px; background: var(--post-bg); color: var(--post-fg);
+    border: 1px solid var(--post-rule); border-radius: 4px;
+    padding: 18px 20px 22px; font-family: var(--font-post);
+  }
+  .posting .ptitle { font-size: 19px; font-weight: 700; line-height: 1.3; margin: 0; }
+  .posting .phood { font-weight: 400; font-size: 16px; color: #555; }
+  .posting .pattrs { margin: 12px 0 0; padding-top: 12px; border-top: 1px solid #e6e6e6; font-size: 13px; color: #555; }
+  .userbody { margin-top: 14px; font-size: 14px; line-height: 1.5; }
+  .userbody p { margin: 0 0 .85em; }
+  .userbody h3 { font-size: 14px; font-weight: 700; margin: 1.1em 0 .4em; }
+  .userbody ul { list-style: disc; padding-left: 1.5em; margin: 0 0 .85em; }
+  .userbody li { margin: .15em 0; }
+
+  ol.steps { margin: 14px 0 0; padding-left: 1.3em; }
+  ol.steps li { margin: 8px 0; padding-left: 4px; }
+
+  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--rule); font-size: 13.5px; color: var(--ink-soft); }
+  footer p { margin: 0 0 9px; }
+  footer a { color: var(--ink); }
+  .disclaim { margin-top: 16px; font-size: 12px; color: var(--ink-faint); }
+
+  @media (max-width: 520px) {
+    .pack { flex-direction: column; align-items: flex-start; gap: 10px; }
+    .pack-r { text-align: left; }
+    h1 { font-size: 25px; }
+    .inc li { grid-template-columns: 1fr; }
+    .posting { padding: 15px 15px 18px; }
+    .posting .ptitle { font-size: 17px; }
+  }
+  .packs { display: grid; gap: 10px; margin-top: 16px; }
+  .pack {
+    display: flex; justify-content: space-between; align-items: center; gap: 24px;
+    border: 1px solid var(--rule); border-radius: 12px; padding: 18px 22px;
+  }
+  .pack-name { margin: 0; font-size: 12px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--ink-faint); }
+  .pack-desc { margin: 7px 0 0; font-size: 14.5px; }
+  .pack-posts { margin: 4px 0 0; font-size: 13px; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+  .pack-r { text-align: right; white-space: nowrap; }
+  .pack-price { font-size: 30px; font-weight: 700; letter-spacing: -.025em; font-variant-numeric: tabular-nums; }
+  .pack-per { font-size: 13px; color: var(--ink-soft); margin-left: 3px; }
+  .pack-hi {
+    background: var(--ink); border-color: var(--ink); color: #fff;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  .pack-hi .pack-name { color: rgba(255,255,255,.62); }
+  .pack-hi .pack-posts, .pack-hi .pack-per { color: rgba(255,255,255,.72); }
+
+  /* Cover: mirrors the site's black hero — white on ink, tracked eyebrow, bold tight headline */
+  header {
+    background: var(--ink); color: #fff;
+    border-radius: 14px; border-bottom: 0;
+    padding: 52px 44px 46px; margin-bottom: 10px;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  header .brand { color: rgba(255,255,255,.60); font-size: 13px; font-weight: 600; letter-spacing: .1em; }
+  header h1 { color: #fff; }
+  header .lede { color: rgba(255,255,255,.78); }
+  header .facts { border-top-color: rgba(255,255,255,.22); color: rgba(255,255,255,.78); }
+  header .facts b { color: #fff; }
+
+  .print-only { display: none; }
+  @media print {
+    body { font-size: 10.5pt; line-height: 1.45; background: #fff; }
+    .wrap { max-width: none; padding: 0; }
+    .print-only { display: block; }
+
+    /* Cover page */
+    header {
+      height: 232mm; display: flex; flex-direction: column; justify-content: center;
+      border-radius: 0; border-bottom: 0; margin: 0 0 0 0;
+      padding: 0 20mm;
+      page-break-after: always; break-after: page;
+    }
+    header .brand { font-size: 11pt; letter-spacing: .14em; }
+    header h1 { font-size: 30pt; line-height: 1.12; margin-top: 18px; }
+    header .lede { font-size: 13pt; margin-top: 16px; max-width: 34em; }
+    .facts { flex-direction: column; gap: 5px; margin-top: 40px; padding-top: 22px; font-size: 10.5pt; }
+
+    /* Flow */
+    h2 { font-size: 15pt; margin-top: 20px; break-after: avoid; }
+    h3 { font-size: 11.5pt; margin-top: 16px; break-after: avoid; }
+    h2 + p, h3 + p, h2 + .scroll, h3 + .scroll { break-before: avoid; }
+    table { font-size: 9.5pt; margin-top: 10px; }
+    table th, table td { padding-top: 7px; padding-bottom: 7px; }
+    p { margin-top: 9px; }
+    thead { display: table-header-group; }
+    tr, .inc li { break-inside: avoid; }
+    .scroll, table { break-inside: avoid; }
+    .pack { break-inside: avoid; padding: 10px 16px; }
+    .pack-price { font-size: 19pt; }
+    .packs { gap: 6px; margin-top: 10px; }
+    .pack-desc { margin-top: 5px; font-size: 10pt; }
+    .pack-posts { margin-top: 2px; font-size: 9pt; }
+    h3 + p + .scroll, p.tight + .scroll { break-before: avoid; }
+    .posting, .callout, .notice { break-inside: avoid; }
+    .scroll { overflow: visible; }
+    footer { break-inside: avoid; margin-top: 10px; padding-top: 8px; font-size: 9.5pt; }
+    footer p { margin-bottom: 3px; margin-top: 0; }
+    .disclaim { margin-top: 6px; font-size: 8.5pt; }
+    ol.steps li { margin: 5px 0; }
+    a { color: inherit; text-decoration: none; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+  <p class="brand">Scale Classifieds</p>
+  <h1>Managed Craigslist advertising for Partners Capital</h1>
+  <p class="lede">Commercial and industrial space for lease in Southern California, posted and managed in Craigslist's Office&nbsp;&amp;&nbsp;Commercial category.</p>
+  <div class="facts">
+    <span><b>Prepared for</b> Sommer Gordon, Partners Capital</span>
+    <span><b>Date</b> 10 October 2026</span>
+    <span><b>Valid</b> 60 days</span>
+  </div>
+  </header>
+
+  <h2>What the service covers</h2>
+  <ul class="inc">
+    <li><span class="k">Ad creation</span><span class="v">You send the flyer or specs for each property. We write the listing — headline, specifications, terms, and a reply instruction that qualifies inbound inquiries. We then send you a preview of each listing for approval; nothing goes live until you have signed it off.</span></li>
+    <li><span class="k">Posting</span><span class="v">Placed into Craigslist's Office &amp; Commercial category in the Southern California markets relevant to each property. We hold the accounts and pay Craigslist's fees. Nobody on your side touches Craigslist.</span></li>
+    <li><span class="k">Reposting</span><span class="v">A Craigslist post expires 30 days after it goes up. We repost ahead of that, so a property always has a live listing. How much more often than that we repost is a separate question — one of visibility rather than expiry — and it is set per market from the turnover we measure there.</span></li>
+    <li><span class="k">Management</span><span class="v">A direct line to our team for mid-cycle changes — a rate adjustment, a suite leasing up, a property coming off the market. One business day guaranteed, usually same day.</span></li>
+    <li><span class="k">Reporting</span><span class="v">After every cycle, an email listing each live post with a direct link, plus a status page that stays current. Optional per-market tracking links show which submarkets produce inquiries on which property.</span></li>
+    <li><span class="k">Replacement</span><span class="v">If a listing is removed inside seven days, we repost it at no charge.</span></li>
+  </ul>
+
+  <h2>Posting frequency</h2>
+  <p>Craigslist listings expire after 30 days, but visibility fades long before that. Page one of a category holds 120 results, and every new listing pushes the older ones down.</p>
+  <p>How quickly that happens is entirely a function of the market. In a dense metro a commercial listing can be off page one inside a day. In a quieter one the same listing holds the front page for weeks. One cadence applied across both overspends in the second and leaves you invisible in the first.</p>
+  <p>So we measure it rather than guess. Before setting a schedule we check the live turnover in each market your properties sit in &mdash; how many new listings go up per day, and how long that leaves a post on page one &mdash; and size the frequency to match. Each property gets the cadence its own market needs, and we revisit it once there is a month of your results to work from.</p>
+
+  <h2>Cost</h2>
+  <h3>Volume rates</h3>
+  <p class="tight">Craigslist's fee is fixed at $5 per post and passed through at cost, never marked up and never discounted. Our service fee falls as monthly volume rises, counted across all your properties together.</p>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Posts per month</th><th class="n">Craigslist</th><th class="n">Service</th><th class="n">Total per post</th></tr></thead>
+      <tbody>
+        <tr><td>1 &ndash; 9</td><td class="n">$5</td><td class="n">$15</td><td class="n">$20</td></tr>
+        <tr><td>10 or more</td><td class="n">$5</td><td class="n">$14</td><td class="n">$19</td></tr>
+        <tr><td>25 or more</td><td class="n">$5</td><td class="n">$13</td><td class="n">$18</td></tr>
+        <tr><td>50 or more</td><td class="n">$5</td><td class="n">$12</td><td class="n">$17</td></tr>
+        <tr><td>100 or more</td><td class="n">$5</td><td class="n">$11</td><td class="n">$16</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Three ways to start</h3>
+  <p class="tight">Every figure below is the total for all three properties, not per property. Pick by budget — we allocate the posts across markets to buy the most visibility per dollar.</p>
+  <div class="packs">
+    <div class="pack">
+      <div>
+        <p class="pack-name">Essential</p>
+        <p class="pack-desc">6 posts per property — enough to hold page one in a steady market</p>
+        <p class="pack-posts">18 posts per month, all three properties</p>
+      </div>
+      <div class="pack-r"><span class="pack-price">$342</span><span class="pack-per">/mo</span></div>
+    </div>
+    <div class="pack pack-hi">
+      <div>
+        <p class="pack-name">Recommended</p>
+        <p class="pack-desc">12 per property — continuous in its main market, plus a second</p>
+        <p class="pack-posts">36 posts per month, all three properties</p>
+      </div>
+      <div class="pack-r"><span class="pack-price">$648</span><span class="pack-per">/mo</span></div>
+    </div>
+    <div class="pack">
+      <div>
+        <p class="pack-name">Maximum</p>
+        <p class="pack-desc">28 per property — continuous page one in Los Angeles</p>
+        <p class="pack-posts">84 posts per month, all three properties</p>
+      </div>
+      <div class="pack-r"><span class="pack-price">$1,428</span><span class="pack-per">/mo</span></div>
+    </div>
+  </div>
+
+  <h3>What that includes</h3>
+  <p class="tight">Craigslist's posting fee is included in every figure above, along with writing the ads, scheduling them and reporting. No setup fee, no retainer, no minimum, no cancellation fee. Every post is billed, scheduled reposts included; the one exception is a listing removed within seven days, which we replace free.</p>
+  <p class="tight">You buy posts and pay for them before they run. Change the volume whenever you like, or stop.</p>
+
+
+  <footer>
+    <p><b>Scale Classifieds</b> &middot; <a href="mailto:support@scaleclassifieds.com">support@scaleclassifieds.com</a></p>
+    <p>407 Lincoln Rd Ste 6H PMB 1834, Miami Beach, FL 33139</p>
+    <p class="disclaim">Scale Classifieds is not affiliated with, endorsed by, or sponsored by Craigslist, Inc. Posting fees are set by Craigslist and may change.</p>
+  </footer>
+
+</div>
+</body>
+</html>

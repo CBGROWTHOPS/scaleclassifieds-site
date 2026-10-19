@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Draft listings for Partners Capital — Scale Classifieds</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap">
+<style>
+  /* Chrome uses the Scale Classifieds palette; the posting panels render the ad body
+     exactly as Craigslist does. Ad bodies use only tags that survive sanitizeAdHtml. */
+  :root {
+    --paper: #f6f6f7;
+    --post-bg: #ffffff;
+    --post-fg: #222222;
+    --post-rule: #cccccc;
+    --post-link: #0000bf;
+    --ink: #0a0a0a;
+    --ink-soft: #4b4f56;
+    --ink-faint: #8a8f98;
+    --rule: #d9dbe0;
+    --rule-soft: #ebedf0;
+    --amber: #b45309;
+    --amber-wash: #fff7e6;
+    --font-sans: "Geist", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --font-post: Helvetica, Arial, system-ui, sans-serif;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #0e0f11;
+      --ink: #f4f4f5;
+      --ink-soft: #b2b6bd;
+      --ink-faint: #7f848d;
+      --rule: #2f3238;
+      --rule-soft: #24262a;
+      --amber: #fbbf24;
+      --amber-wash: #2a1f0c;
+      color-scheme: dark;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: var(--font-sans); font-size: 15px; line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  img { max-width: 100%; }
+  .wrap { max-width: 760px; margin: 0 auto; padding-inline: 20px; padding-block: 40px 56px; }
+
+  header { border-bottom: 1px solid var(--rule); padding-bottom: 20px; }
+  .brand { font-size: 12px; font-weight: 600; letter-spacing: .09em; text-transform: uppercase; color: var(--ink-faint); margin: 0; }
+  h1 { font-size: 27px; font-weight: 700; letter-spacing: -.02em; line-height: 1.2; margin: 10px 0 0; }
+  .sub { margin: 10px 0 0; color: var(--ink-soft); max-width: 62ch; }
+
+  .notice {
+    margin-top: 24px; padding: 14px 16px;
+    background: var(--amber-wash); border: 1px solid var(--amber); border-radius: 9px;
+    font-size: 13.5px; line-height: 1.5;
+  }
+  .notice strong { color: var(--amber); }
+  .notice ol { margin: 8px 0 0; padding-left: 20px; }
+  .notice li { margin: 4px 0; }
+
+  h2 { font-size: 12px; font-weight: 600; letter-spacing: .09em; text-transform: uppercase; color: var(--ink-faint); margin: 44px 0 0; }
+
+  .meta { display: flex; flex-wrap: wrap; gap: 5px 16px; margin: 12px 0 0; font-size: 12.5px; color: var(--ink-soft); }
+  .meta b { color: var(--ink); font-weight: 600; }
+
+  .posting {
+    margin-top: 10px; background: var(--post-bg); color: var(--post-fg);
+    border: 1px solid var(--post-rule); border-radius: 4px;
+    padding: 18px 20px 22px; font-family: var(--font-post);
+  }
+  .posting .ptitle { font-size: 20px; font-weight: 700; line-height: 1.3; margin: 0; color: var(--post-fg); }
+  .posting .phood { font-weight: 400; font-size: 17px; color: #555; }
+  .posting .pattrs { margin: 12px 0 0; padding-top: 12px; border-top: 1px solid #e6e6e6; font-size: 13px; color: #555; }
+  .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin: 8px 0 0; }
+  .photocount { margin: 14px 0 0; font-size: 12.5px; color: #555; }
+  .gallery img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border: 1px solid #e6e6e6; background: #f3f3f3; }
+  .gallery img.plan { object-fit: contain; background: #fff; }
+  .userbody { margin-top: 14px; font-size: 14px; line-height: 1.5; color: var(--post-fg); white-space: normal; }
+  .userbody p { margin: 0 0 .85em; }
+  .userbody ul { list-style: none; padding-left: 0; margin: 0 0 .85em; }
+  .userbody li { margin: .15em 0; }
+  .userbody li::before { content: "- "; }
+  .userbody .hr { border: 0; border-top: 1px solid #e6e6e6; margin: 1em 0; }
+  .userbody .cta { margin: 1.1em 0; font-size: 17px; font-weight: 700; line-height: 1.35; }
+  .userbody .cta.top { margin: .2em 0 1em; font-size: 15px; }
+  .userbody .cta .num { font-size: 20px; letter-spacing: .01em; white-space: nowrap; }
+  .userbody .key { font-weight: 700; }
+  .userbody .deal { font-weight: 700; text-transform: uppercase; }
+  .preply { margin: 16px 0 0; padding-top: 13px; border-top: 1px solid #e6e6e6; font-size: 13px; color: #555; }
+  .preply b { color: var(--post-fg); }
+
+  footer { margin-top: 44px; padding-top: 20px; border-top: 1px solid var(--rule); font-size: 13.5px; color: var(--ink-soft); }
+  footer p { margin: 0 0 9px; }
+  footer a { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
+  .disclaim { margin-top: 16px; font-size: 12px; color: var(--ink-faint); }
+
+  @media (max-width: 460px) {
+    .gallery { grid-template-columns: 1fr 1fr; }
+    h1 { font-size: 23px; }
+    .posting { padding: 15px 15px 18px; }
+    .posting .ptitle { font-size: 17.5px; }
+    .posting .phood { font-size: 15px; }
+    .gallery { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="brand">Scale Classifieds</p>
+    <h1>Draft listings for Partners Capital</h1>
+    <p class="sub">One listing per property &mdash; plus an optional fifth for the 2,302 SF Victory unit &mdash; shown as they will appear on Craigslist once live. Built from the listing details and photos you sent on October 14. Prepared October 15, 2026.</p>
+  </header>
+
+  <div class="notice">
+    <strong>Four things to confirm before these go live &mdash; and listing 5 is optional.</strong>
+    <ol>
+      <li><b>Monthly figures for E. Gardena and Victory Industrial Park.</b> Your documents show the Gardena 1,575 SF math ($2,362.50 + $157.50 = $2,520) for all three Los Angeles properties. We've applied the same $1.50/SF + $0.10/SF CAM rate to each property's actual unit sizes instead — please check the resulting numbers below.</li>
+      <li><b>Spanish text for Victory Industrial Park.</b> The Spanish section in that document describes Gardena / South Bay. We've rewritten it for Norwalk; please have a Spanish reader confirm.</li>
+      <li><b>Phone number on Border Commerce Center.</b> That description says "email to get a showing." Per Ryan's request, every listing now shows 310-254-1648. Remove it from any you prefer email-only.</li>
+      <li><b>Email replies</b> go through Craigslist's anonymous relay to Ryan. His address never appears on the listing.</li>
+    </ol>
+  </div>
+
+  <!-- 1 ─────────────────────────────────────────────────────────── -->
+  <h2>1 &mdash; 128-145 W Gardena Blvd, Gardena</h2>
+  <div class="meta">
+    <span><b>Posts to:</b> Los Angeles &rsaquo; westside-southbay-310 &rsaquo; housing &rsaquo; office / commercial</span>
+    <span><b>Cadence:</b> weekly</span>
+  </div>
+  <div class="posting">
+    <p class="ptitle">1,575 SF Warehouse/Office Units - Gardena | 12'x12' Roll-Up, 3-Phase, Free Rent <span class="phood">(Gardena)</span></p>
+    <p class="pattrs">rent: <b>$2,520 / month</b> &nbsp;&middot;&nbsp; 1,575 ft<sup>2</sup> &nbsp;&middot;&nbsp; available now</p>
+    <p class="photocount">6 photos on the live post &mdash; exactly as you sent them</p>
+    <div class="gallery">
+      <img src="/preview/partners-capital/w-gardena-2.jpg" alt="" loading="lazy">
+      <img src="/preview/partners-capital/w-gardena-5.jpg" alt="" loading="lazy">
+      <img src="/preview/partners-capital/w-gardena-4.jpg" alt="" loading="lazy">
+      <img src="/preview/partners-capital/w-gardena-3.jpg" alt="" loading="lazy">
+      <img src="/preview/partners-capital/w-gardena-1.jpg" alt="" loading="lazy">
+      <img src="/preview/partners-capital/w-gardena-siteplan.png" alt="" class="plan" loading="lazy">
+    </div>
+    <div class="userbody">
+      <p>1,575 SF warehouse / office units for lease in Gardena, centrally located in the South Bay with quick access to the 110, 405, and 91 freeways.</p>
+      <p class="cta top">Showings: <span class="num">310-254-1648</span></p>
+      <ul>
+        <li>Ground-level roll-up door (12' x 12')</li>
+        <li>Warehouse / restroom / office in all units</li>
+        <li>200 amp, 3-phase power</li>
+        <li>2 parking spaces included</li>
+        <li>Newly renovated, clean, and ready for immediate move-in</li>
+        <li>Flexible lease terms</li>
+        <li><span class="deal">FREE RENT if a lease is signed in the next 30 days</span></li>
+      </ul>
+      <p><span class="key">THREE-YEAR SPECIAL:</span><br>
+      Year 1: $1.50/SF ($2,362.50/month) + $0.10/SF CAM ($157.50/month) = $2,520/month total<br>
+      Year 2: $1.60/SF ($2,520/month) + CAM<br>
+      Year 3: $1.70/SF ($2,677.50/month) + CAM</p>
+      <p><span class="key">Available units:</span> 128.5, 130.5, 132.5, 134, 140</p>
+      <p>Ideal for contractors, storage, e-commerce and fulfillment, small distribution, logistics, light manufacturing, wholesale, trade shops, equipment storage, and many other uses.</p>
+      <p class="cta">CALL OR EMAIL TO SET UP A SHOWING: <span class="num">310-254-1648</span></p>
+      <hr class="hr">
+      <p>Bodegas / oficinas de 1,575 pies cuadrados en renta en Gardena, en el centro del South Bay con acceso rápido a las autopistas 110, 405 y 91.</p>
+      <ul>
+        <li>Puerta enrollable a nivel de piso (12' x 12')</li>
+        <li>Todas las unidades incluyen bodega, baño y oficina</li>
+        <li>Corriente trifásica de 200 amperios</li>
+        <li>2 espacios de estacionamiento incluidos</li>
+        <li>Recién renovadas, limpias y listas para ocupar de inmediato</li>
+        <li>Contratos de arrendamiento flexibles</li>
+        <li><span class="deal">RENTA GRATIS SI FIRMA SU CONTRATO DE ARRENDAMIENTO EN LOS PRÓXIMOS 30 DÍAS</span></li>
+      </ul>
+      <p><span class="key">ESPECIAL DE TRES AÑOS:</span><br>
+      Año 1: $1.50 por pie cuadrado ($2,362.50 al mes) + $0.10 por pie cuadrado de CAM ($157.50 al mes) = $2,520 al mes en total<br>
+      Año 2: $1.60 por pie cuadrado ($2,520 al mes) + CAM<br>
+      Año 3: $1.70 por pie cuadrado ($2,677.50 al mes) + CAM</p>
+      <p>Ideal para contratistas, almacenamiento, comercio en línea y envío de pedidos, distribución pequeña, logística, manufactura ligera, venta al mayoreo, talleres, almacenamiento de equipo y muchos otros usos.</p>
+      <p class="cta">Llame o envíe un correo electrónico para agendar una visita: <span class="num">310-254-1648</span></p>
+    </div>
+    <p class="preply"><b>reply</b> &nbsp;&rsaquo;&nbsp; email via Craigslist relay to Ryan Adjnasian (address hidden) &nbsp;&middot;&nbsp; call 310-254-1648</p>
+  </div>
+
+  <!-- 2 ─────────────────────────────────────────────────────────── -->
+  <h2>2 &mdash; 401-409 E Gardena Blvd, Gardena</h2>
+  <div class="meta">
+    <span><b>Posts to:</b> Los Angeles &rsaquo; westside-southbay-310 &rsaquo; housing &rsaquo; office / commercial</span>
+    <span><b>Cadence:</b> weekly</span>
+  </div>
+  <div class="posting">
+    <p class="ptitle">1,501-1,796 SF Warehouse/Office Units - Gardena | 12'x12' Roll-Up, Free Rent <span class="phood">(Gardena)</span></p>
+    <p class="pattrs">rent: <b>from $2,402 / month</b> &nbsp;&middot;&nbsp; 1,501&ndash;1,796 ft<sup>2</sup> &nbsp;&middot;&nbsp; available now</p>
+    <p class="photocount">4 photos on the live post &mdash; exactly as you sent them</p>
+    <div class="gallery">
+      <img src="/preview/partners-capital/e-gardena-2.jpg" alt="" loading="lazy">
+      <img src="/preview/partners-capital/e-gardena-1.jpg" alt="" loading="lazy">
+      <img src="/preview/partners-capital/e-gardena-3.jpg" alt="" loading="lazy">
+      <img src="/preview/partners-capital/e-gardena-4.jpg" alt="" loading="lazy">
+    </div>
+    <div class="userbody">
+      <p>1,491-1,800 SF warehouse / office units for lease in Gardena, centrally located in the South Bay with quick access to the 110, 405, and 91 freeways.</p>
+      <p class="cta top">Showings: <span class="num">310-254-1648</span></p>
+      <ul>
+        <li>Ground-level roll-up door (12' x 12')</li>
+        <li>Warehouse / restroom / office in all units</li>
+        <li>3-phase power</li>
+        <li>2 parking spaces included</li>
+        <li>Newly renovated, clean, and ready for immediate move-in</li>
+        <li>Flexible lease terms</li>
+        <li><span class="deal">FREE RENT if a lease is signed in the next 30 days</span></li>
+        <li>Shorter lease terms offered, but at a slightly higher rent</li>
+      </ul>
+      <p><span class="key">THREE-YEAR SPECIAL:</span> Year 1 $1.50/SF + $0.10/SF CAM, Year 2 $1.60/SF + CAM, Year 3 $1.70/SF + CAM.<br>
+      1,501 SF unit: $2,251.50 + $150.10 CAM = $2,401.60/month in year 1<br>
+      1,796 SF unit: $2,694.00 + $179.60 CAM = $2,873.60/month in year 1</p>
+      <p><span class="key">Available units:</span> 403 D (1,796 SF), 403 F (1,501 SF), 405 A (1,796 SF), 405 B (1,501 SF)</p>
+      <p>Ideal for contractors, storage, e-commerce and fulfillment, small distribution, logistics, light manufacturing, wholesale, trade shops, equipment storage, and many other uses.</p>
+      <p class="cta">CALL OR EMAIL TO SET UP A SHOWING: <span class="num">310-254-1648</span></p>
+      <hr class="hr">
+      <p>Unidades de bodega / oficina en renta en Gardena: de 1,491 a 1,800 pies cuadrados. Ubicación céntrica en el South Bay, con acceso rápido a los freeways 110, 405 y 91.</p>
+      <ul>
+        <li>Puerta enrollable a nivel del suelo (12' x 12')</li>
+        <li>Todas las unidades incluyen bodega, baño y oficina</li>
+        <li>Electricidad trifásica (3-phase)</li>
+        <li>2 espacios de estacionamiento incluidos</li>
+        <li>Recién renovadas, limpias y listas para ocupación inmediata</li>
+        <li>Términos de arrendamiento flexibles</li>
+        <li><span class="deal">RENTA GRATIS SI FIRMA UN CONTRATO EN LOS PRÓXIMOS 30 DÍAS</span></li>
+        <li>También hay contratos de menor plazo disponibles, con una renta ligeramente más alta</li>
+      </ul>
+      <p><span class="key">OFERTA ESPECIAL DE TRES AÑOS:</span> Año 1 $1.50/pie² + $0.10/pie² de CAM, Año 2 $1.60/pie² + CAM, Año 3 $1.70/pie² + CAM.<br>
+      Unidad de 1,501 pies²: $2,251.50 + $150.10 de CAM = $2,401.60 al mes en el año 1<br>
+      Unidad de 1,796 pies²: $2,694.00 + $179.60 de CAM = $2,873.60 al mes en el año 1</p>
+      <p>Ideal para contratistas, almacenamiento, e-commerce y fulfillment, distribución a pequeña escala, logística, manufactura ligera, venta al mayoreo, talleres de oficios, almacenamiento de equipo y muchos otros usos.</p>
+      <p class="cta">Para agendar una visita, envíe un correo o llame al: <span class="num">310-254-1648</span></p>
+    </div>
+    <p class="preply"><b>reply</b> &nbsp;&rsaquo;&nbsp; email via Craigslist relay to Ryan Adjnasian (address hidden) &nbsp;&middot;&nbsp; call 310-254-1648</p>
+  </div>
+
+  <!-- 3 ─────────────────────────────────────────────────────────── -->
+  <h2>3 &mdash; Victory Industrial Park, Norwalk</h2>
+  <div class="meta">
+    <span><b>Posts to:</b> Los Angeles &rsaquo; long beach / 562 &rsaquo; housing &rsaquo; office / commercial</span>
+    <span><b>Cadence:</b> weekly</span>
+  </div>
+  <div class="posting">
+    <p class="ptitle">1,100-2,302 SF Warehouse/Office Units - Norwalk | 12'x12' Roll-Up, 3-Phase <span class="phood">(Norwalk)</span></p>
+    <p class="pattrs">rent: <b>from $1,760 / month</b> &nbsp;&middot;&nbsp; 1,100&ndash;2,302 ft<sup>2</sup> &nbsp;&middot;&nbsp; available now</p>
+    <p class="photocount">3 photos on the live post &mdash; exactly as you sent them</p>
+    <div class="gallery">
+      <img src="/preview/partners-capital/victory-1.jpg" alt="" loading="lazy">
+      <img src="/preview/partners-capital/victory-2.jpg" alt="" loading="lazy">
+      <img src="/preview/partners-capital/victory-3.jpg" alt="" loading="lazy">
+    </div>
+    <div class="userbody">
+      <p>1,100 SF &ndash; 2,302 SF warehouse / office units for lease in Norwalk, with quick access to the 5, 605, 105, and 91 freeways, centrally located between Los Angeles and Orange County.</p>
+      <p class="cta top">Showings: <span class="num">310-254-1648</span></p>
+      <ul>
+        <li>Ground-level roll-up door (12' x 12')</li>
+        <li>Warehouse / restroom / office in all units</li>
+        <li>3-phase power</li>
+        <li>2 parking spaces included</li>
+        <li>Newly renovated, clean, and ready for immediate move-in</li>
+        <li>Flexible lease terms</li>
+        <li><span class="deal">FREE RENT if a lease is signed in the next 30 days</span></li>
+        <li>Shorter lease terms offered, but at a slightly higher rent</li>
+      </ul>
+      <p><span class="key">THREE-YEAR SPECIAL:</span> Year 1 $1.50/SF + $0.10/SF CAM, Year 2 $1.60/SF + CAM, Year 3 $1.70/SF + CAM.<br>
+      1,100 SF: $1,650 + $110 CAM = $1,760/month in year 1<br>
+      1,200 SF: $1,800 + $120 CAM = $1,920/month in year 1<br>
+      1,381 SF: $2,071.50 + $138.10 CAM = $2,209.60/month in year 1<br>
+      2,302 SF: $3,453 + $230.20 CAM = $3,683.20/month in year 1</p>
+      <p><span class="key">Available units:</span> 13020 A, C, D, H (1,100 SF each) &middot; 13020 E (1,381 SF) &middot; 13020 F (2,302 SF) &middot; 13035 G (1,100 SF) &middot; 13045 B, E (1,100 SF each) &middot; 13900 F (1,200 SF)</p>
+      <p>Ideal for contractors, storage, e-commerce and fulfillment, small distribution, logistics, light manufacturing, wholesale, trade shops, equipment storage, and many other uses.</p>
+      <p class="cta">CALL OR EMAIL TO SET UP A SHOWING: <span class="num">310-254-1648</span></p>
+      <hr class="hr">
+      <p>Unidades de bodega / oficina en renta en Norwalk: de 1,100 a 2,302 pies cuadrados. Acceso rápido a los freeways 5, 605, 105 y 91, en el centro entre Los Ángeles y el Condado de Orange.</p>
+      <ul>
+        <li>Puerta enrollable a nivel del suelo (12' x 12')</li>
+        <li>Todas las unidades incluyen bodega, baño y oficina</li>
+        <li>Electricidad trifásica (3-phase)</li>
+        <li>2 espacios de estacionamiento incluidos</li>
+        <li>Recién renovadas, limpias y listas para ocupación inmediata</li>
+        <li>Términos de arrendamiento flexibles</li>
+        <li><span class="deal">RENTA GRATIS SI FIRMA UN CONTRATO EN LOS PRÓXIMOS 30 DÍAS</span></li>
+        <li>También hay contratos de menor plazo disponibles, con una renta ligeramente más alta</li>
+      </ul>
+      <p><span class="key">OFERTA ESPECIAL DE TRES AÑOS:</span> Año 1 $1.50/pie² + $0.10/pie² de CAM, Año 2 $1.60/pie² + CAM, Año 3 $1.70/pie² + CAM.<br>
+      1,100 pies²: $1,650 + $110 de CAM = $1,760 al mes en el año 1<br>
+      2,302 pies²: $3,453 + $230.20 de CAM = $3,683.20 al mes en el año 1</p>
+      <p>Ideal para contratistas, almacenamiento, e-commerce y fulfillment, distribución a pequeña escala, logística, manufactura ligera, venta al mayoreo, talleres de oficios, almacenamiento de equipo y muchos otros usos.</p>
+      <p class="cta">Para agendar una visita, envíe un correo o llame al: <span class="num">310-254-1648</span></p>
+    </div>
+    <p class="preply"><b>reply</b> &nbsp;&rsaquo;&nbsp; email via Craigslist relay to Ryan Adjnasian (address hidden) &nbsp;&middot;&nbsp; call 310-254-1648</p>
+  </div>
+
+  <!-- 4 ─────────────────────────────────────────────────────────── -->
+  <h2>4 &mdash; Border Commerce Center, San Ysidro</h2>
+  <div class="meta">
+    <span><b>Posts to:</b> San Diego &rsaquo; south SD &rsaquo; housing &rsaquo; office / commercial</span>
+    <span><b>Cadence:</b> every two weeks</span>
+  </div>
+  <div class="posting">
+    <p class="ptitle">960-1,200 SF Warehouse/Office Units - San Ysidro | Minutes From the Border, Free Rent <span class="phood">(San Ysidro)</span></p>
+    <p class="pattrs">rent: <b>from $1,680 / month + CAM</b> &nbsp;&middot;&nbsp; 960&ndash;1,200 ft<sup>2</sup> &nbsp;&middot;&nbsp; available now</p>
+    <p class="photocount">7 photos on the live post &mdash; exactly as you sent them</p>
+    <div class="gallery">
+      <img src="/preview/partners-capital/border-2.jpg" alt="" loading="lazy">
+      <img src="/preview/partners-capital/border-4.jpg" alt="" loading="lazy">
+      <img src="/preview/partners-capital/border-3.jpg" alt="" loading="lazy">
+      <img src="/preview/partners-capital/border-5.jpg" alt="" loading="lazy">
+      <img src="/preview/partners-capital/border-1.jpg" alt="" loading="lazy">
+      <img src="/preview/partners-capital/border-6.jpg" alt="" loading="lazy">
+      <img src="/preview/partners-capital/border-floorplan.png" alt="" class="plan" loading="lazy">
+    </div>
+    <div class="userbody">
+      <p>960 to 1,200 SF warehouse / office units for lease in San Ysidro, minutes from the border crossing.</p>
+      <p class="cta top">Showings: <span class="num">310-254-1648</span></p>
+      <ul>
+        <li>Ground-level roll-up door (8' x 10')</li>
+        <li>Warehouse / restroom / small office in all units</li>
+        <li>3-phase power</li>
+        <li>2 parking spaces included</li>
+        <li>Clean, ready for immediate move-in</li>
+        <li><span class="key">$1,680/month + monthly CAM for 960 SF &middot; $2,100/month + CAM for 1,200 SF</span></li>
+        <li><span class="deal">FREE RENT if a lease is signed in the next 30 days</span></li>
+        <li>Flexible lease terms</li>
+        <li>Newly renovated industrial park</li>
+      </ul>
+      <p><span class="key">Available:</span> 960 SF suites 908, 910, 912, 913, 914, 917, 918, 919, 920, 921, 922 (494 Calle Primera) &middot; 1,200 SF suite 1103 (2325 Via Tercero)</p>
+      <p>Ideal for contractors, storage, e-commerce, small distribution, package receiving, and many other uses.</p>
+      <p class="cta">CALL OR EMAIL TO SET UP A SHOWING: <span class="num">310-254-1648</span></p>
+      <hr class="hr">
+      <p>Bodegas / oficinas de 960 a 1,200 pies cuadrados en renta en San Ysidro, a minutos de la garita.</p>
+      <ul>
+        <li>Puerta enrollable a nivel de piso (8' x 10')</li>
+        <li>Todas las unidades incluyen bodega, baño y oficina pequeña</li>
+        <li>Corriente trifásica</li>
+        <li>2 espacios de estacionamiento incluidos</li>
+        <li>Limpias y listas para ocupar de inmediato</li>
+        <li>$1,680 al mes + cuota mensual de mantenimiento (CAM) por 960 pies cuadrados, y $2,100 al mes + CAM por 1,200 pies cuadrados</li>
+        <li><span class="deal">RENTA GRATIS SI FIRMA SU CONTRATO DE ARRENDAMIENTO EN LOS PRÓXIMOS 30 DÍAS</span></li>
+        <li>Contratos de arrendamiento flexibles</li>
+        <li>Parque industrial recién renovado</li>
+      </ul>
+      <p>Ideal para contratistas, almacenamiento, comercio en línea, distribución pequeña, recepción de paquetería y muchos otros usos.</p>
+      <p class="cta">Envíe un correo electrónico o llame para agendar una visita: <span class="num">310-254-1648</span></p>
+    </div>
+    <p class="preply"><b>reply</b> &nbsp;&rsaquo;&nbsp; email via Craigslist relay to Ryan Adjnasian (address hidden) &nbsp;&middot;&nbsp; call 310-254-1648</p>
+  </div>
+
+  <!-- 5 (optional) ───────────────────────────────────────────── -->
+  <h2>5 (optional) &mdash; Victory Industrial Park, unit 13020 F, Norwalk</h2>
+  <div class="meta">
+    <span><b>Posts to:</b> Los Angeles &rsaquo; long beach / 562 &rsaquo; housing &rsaquo; office / commercial</span>
+    <span><b>Cadence:</b> weekly</span>
+    <span><b>Status:</b> optional &mdash; approve it with the others or tell us to skip it</span>
+  </div>
+  <div class="posting">
+    <p class="ptitle">2,302 SF Warehouse/Office Unit - Norwalk | 12'x12' Roll-Up, 3-Phase, Free Rent <span class="phood">(Norwalk)</span></p>
+    <p class="pattrs">rent: <b>$3,683 / month</b> &nbsp;&middot;&nbsp; 2,302 ft<sup>2</sup> &nbsp;&middot;&nbsp; available now</p>
+    <p class="photocount">3 photos on the live post &mdash; the Victory Industrial Park set; send a photo of unit F if you have one</p>
+    <div class="gallery">
+      <img src="/preview/partners-capital/victory-3.jpg" alt="" loading="lazy">
+      <img src="/preview/partners-capital/victory-2.jpg" alt="" loading="lazy">
+      <img src="/preview/partners-capital/victory-1.jpg" alt="" loading="lazy">
+    </div>
+    <div class="userbody">
+      <p>2,302 SF warehouse / office unit for lease at Victory Industrial Park in Norwalk &mdash; the largest available unit in the park, with quick access to the 5, 605, 105, and 91 freeways, centrally located between Los Angeles and Orange County.</p>
+      <p class="cta top">Showings: <span class="num">310-254-1648</span></p>
+      <ul>
+        <li>Unit F, 13020 Tom White Way</li>
+        <li>Ground-level roll-up door (12' x 12')</li>
+        <li>Warehouse / restroom / office</li>
+        <li>3-phase power</li>
+        <li>2 parking spaces included</li>
+        <li>Newly renovated, clean, and ready for immediate move-in</li>
+        <li>Flexible lease terms &mdash; shorter terms offered at a slightly higher rent</li>
+        <li><span class="deal">FREE RENT if a lease is signed in the next 30 days</span></li>
+      </ul>
+      <p><span class="key">THREE-YEAR SPECIAL:</span><br>
+      Year 1: $1.50/SF ($3,453/month) + $0.10/SF CAM ($230.20/month) = $3,683.20/month total<br>
+      Year 2: $1.60/SF ($3,683.20/month) + CAM<br>
+      Year 3: $1.70/SF ($3,913.40/month) + CAM</p>
+      <p>Ideal for contractors, e-commerce and fulfillment, small distribution, logistics, light manufacturing, wholesale, trade shops, equipment storage, and many other uses needing more room than a standard unit.</p>
+      <p class="cta">CALL OR EMAIL TO SET UP A SHOWING: <span class="num">310-254-1648</span></p>
+      <hr class="hr">
+      <p>Bodega / oficina de 2,302 pies cuadrados en renta en Victory Industrial Park, Norwalk &mdash; la unidad disponible más grande del parque, con acceso rápido a los freeways 5, 605, 105 y 91, en el centro entre Los Ángeles y el Condado de Orange.</p>
+      <ul>
+        <li>Unidad F, 13020 Tom White Way</li>
+        <li>Puerta enrollable a nivel del suelo (12' x 12')</li>
+        <li>Bodega, baño y oficina</li>
+        <li>Electricidad trifásica (3-phase)</li>
+        <li>2 espacios de estacionamiento incluidos</li>
+        <li>Recién renovada, limpia y lista para ocupación inmediata</li>
+        <li>Términos de arrendamiento flexibles &mdash; plazos más cortos disponibles con una renta ligeramente más alta</li>
+        <li><span class="deal">RENTA GRATIS SI FIRMA UN CONTRATO EN LOS PRÓXIMOS 30 DÍAS</span></li>
+      </ul>
+      <p><span class="key">OFERTA ESPECIAL DE TRES AÑOS:</span><br>
+      Año 1: $1.50/pie² ($3,453 al mes) + $0.10/pie² de CAM ($230.20 al mes) = $3,683.20 al mes en total<br>
+      Año 2: $1.60/pie² ($3,683.20 al mes) + CAM<br>
+      Año 3: $1.70/pie² ($3,913.40 al mes) + CAM</p>
+      <p class="cta">Para agendar una visita, envíe un correo o llame al: <span class="num">310-254-1648</span></p>
+    </div>
+    <p class="preply"><b>reply</b> &nbsp;&rsaquo;&nbsp; email via Craigslist relay to Ryan Adjnasian (address hidden) &nbsp;&middot;&nbsp; call 310-254-1648</p>
+  </div>
+
+  <footer>
+    <p>Each listing posts into Craigslist's <b>office / commercial</b> category in the market shown. Posts expire after 30 days; each scheduled run is a fresh post and the previous copy comes down when the new one is live, so every property has one current listing. After every run you receive an email with the live link.</p>
+    <p>Scale Classifieds &middot; <a href="mailto:support@scaleclassifieds.com">support@scaleclassifieds.com</a></p>
+    <p class="disclaim">Scale Classifieds is not affiliated with, endorsed by, or sponsored by Craigslist, Inc.</p>
+  </footer>
+</div>
+</body>
+</html>
